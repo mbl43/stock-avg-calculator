@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  height: 80vh;
+  width: 100vw;
+}
+.navbar {
+  max-width: 70vw;
+  background-color: rgb(0, 136, 255);
+  height: 8vh;
+  display: flex;
+  color: white;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+.navbar > span {
+  font-size: 30px;
+  font-weight: 500;
+}
+/* main area for first and second buying  */
+.main-area {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 60vw;
+  height: 30vh;
+  /* background-color: black; */
+}
+.main-area span {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.err
+{
+  font-size: 12px;
+  color: red;
+}
+.first-buy {
+  width: 30vw;
+  height: 30vh;
+  /* background-color: rgb(29, 238, 203); */
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+  border-right: 2px solid black;
+}
+
+.second-buy {
+  width: 30vw;
+  height: 30vh;
+  /* background-color: rgb(201, 252, 0); */
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+input {
+  height: 50px;
+  font-weight: 500;
+  width: 12em;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 16px;
+  padding: 5px 5px 5px 5px;
+}
+.separation {
+  height: 3px;
+  margin: auto;
+  max-width: 100%;
+  background-color: black;
+}
+.output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 60vw;
+  flex-direction: column;
+}
+.output > span {
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.ttl-quantity {
+  display: flex;
+  justify-content: center;
+
+  gap: 10px;
+}
+.final-amt >p{
+    font-size: 30px;
+}
+.amount {
+  display: flex;
+  justify-content: center;
+
+  gap: 10px;
+}
+.separation-2 {
+  height: 1px;
+  margin: auto;
+  max-width: 100%;
+  background-color: black;
+}
+.final-amt {
+  color: #3c8c30;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
+  gap: 10px;
+}
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 60vw;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 50px;
+}
+#btn .calculate
+{
+    width: 220px;
+}
+.calculate,.clear
+{
+    background-color: rgb(0, 136, 255);
+    width: 150px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

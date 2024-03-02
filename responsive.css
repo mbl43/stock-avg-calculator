@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    .main-area {
+       flex-direction: column;
+       height: 60vh;
+    }
+    .first-buy, .second-buy {
+       width: 100%;
+       border-right: none;
+    }
+    img {
+     max-width: 100%;
+     height: auto;
+    }
+    .calculate,.clear
+    {
+      font-size: 14px;
+    }
+   }
+
+@media (max-width: 480px) {
+    .navbar > span, .main-area span {
+       font-size: 15px;
+       text-align: center;
+    }
+    .err {
+       font-size: 8px;
+    }
+    .output > span, .final-amt > p {
+       font-size: 18px;
+    }
+    p {
+       font-size: 18px;
+    }
+   }
+         
