@@ -3,6 +3,7 @@
 ## Overview
 
 This project is a simple web application designed to calculate the average price per stock across two purchases. It's a useful tool for investors and traders who want to quickly determine the average cost of their stock holdings.
+https://mbl43.github.io/stock-avg-calculator/
 
 ## Features
 
