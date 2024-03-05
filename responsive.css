@@ -1,4 +1,10 @@
 @media (max-width: 768px) {
+   .navbar
+   {
+      max-width: 50vh;
+      height: 6vh;
+     
+   }
     .main-area {
        flex-direction: column;
        height: 60vh;
@@ -15,13 +21,21 @@
     {
       font-size: 14px;
     }
-   }
-
-@media (max-width: 480px) {
+    #btn
+    {
+      margin-top: 10px;
+    }
+    .new-project-link{
+       
+      font-size: 12px;
+    }
     .navbar > span, .main-area span {
        font-size: 15px;
        text-align: center;
     }
+   }
+
+@media (max-width: 480px) {
     .err {
        font-size: 8px;
     }

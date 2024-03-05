@@ -72,6 +72,7 @@ input {
   height: 50px;
   font-weight: 500;
   width: 12em;
+  border: 2px solid black;
   font-size: 18px;
   text-align: center;
   border-radius: 16px;
@@ -147,11 +148,17 @@ p {
 .calculate,.clear
 {
     background-color: rgb(0, 136, 255);
-    width: 150px;
+    width: 150px; 
     height: 55px;
     font-size: 20px;
     font-weight: 600;
     color: white;
     border-radius: 10px;
     cursor: pointer;
+}
+.new-project-link{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 15px;
 }
